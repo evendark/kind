@@ -2,6 +2,12 @@
 
 ## Preparation
 
+To make is simple you can also create your own network befor like this:
+
+```bash
+docker network create --driver bridge --subnet 172.18.0.0/24 kind
+```
+
 Check the correct network ipAddress Settings in `./manifests/metallb.yaml` with
 
 ```bash

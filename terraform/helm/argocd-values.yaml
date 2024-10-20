@@ -1923,7 +1923,7 @@ server:
     ## Hostnames must be provided if Ingress is enabled.
     ## Secrets must be manually created in the namespace
     hosts: 
-      - argocd.koellgma.de
+      - argocd.frey.im
 
     # -- List of ingress paths
     paths:
@@ -1944,7 +1944,7 @@ server:
     tls:
       - secretName: argocd-tls
         hosts:
-          - argocd.koellgma.de
+          - argocd.frey.im
 
     # -- Uses `server.service.servicePortHttps` instead `server.service.servicePortHttp`
     https: false
